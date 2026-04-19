@@ -12,3 +12,4 @@ C:\Users\sheik\OneDrive - Higher College of Technology Muscat\Documents\solution
 C:\Users\sheik\OneDrive - Higher College of Technology Muscat\Documents\solutions\solution2\solution2\project 1\obj\Debug\net8.0\project 1.pdb
 C:\Users\sheik\OneDrive - Higher College of Technology Muscat\Documents\solutions\solution2\solution2\project 1\obj\Debug\net8.0\project 1.genruntimeconfig.cache
 C:\Users\sheik\OneDrive - Higher College of Technology Muscat\Documents\solutions\solution2\solution2\project 1\obj\Debug\net8.0\ref\project 1.dll
+C:\Users\sheik\OneDrive - Higher College of Technology Muscat\Documents\solutions\solution2\solution2\project 1\obj\Debug\net8.0\project 1.sourcelink.json
