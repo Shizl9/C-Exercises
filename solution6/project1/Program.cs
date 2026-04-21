@@ -168,6 +168,24 @@
 
             #endregion
 
-        }
+
+            // Part 7: Highest Grade
+            #region  Highest Grade
+            int max = grades[0, 0];
+
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    if (grades[i, j] > max)
+                        max = grades[i, j];
+                }
+            }
+
+            Console.WriteLine($"\nHighest Grade = {max}");
+        
+    
+            #endregion
+}
     }
 }
