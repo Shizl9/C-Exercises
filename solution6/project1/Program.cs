@@ -62,6 +62,20 @@
 
             // Part 2: Student Grades
             #region Student Grades
+            int[,] grades = new int[5, 3]; // 5 students, 3 subjects
+
+            string[] subjects = { "Math", "Science", "English" };
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"\nEnter grades for {students[i]}:");
+                for (int j = 0; j < 3; j++)
+                {
+                    Console.Write($"{subjects[j]}: ");
+                    grades[i, j] = Convert.ToInt32(Console.ReadLine());
+                }
+            }
+
 
             #endregion
 
