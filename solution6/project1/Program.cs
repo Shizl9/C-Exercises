@@ -113,6 +113,39 @@
 
             #endregion
 
+            // Part 5: Jagged Array
+            #region Jagged
+            Console.WriteLine("\nJagged Array:");
+
+            int[][] jagged = new int[5][];
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write($"Enter number of subjects for {students[i]}: ");
+                int n = Convert.ToInt32(Console.ReadLine());
+
+                jagged[i] = new int[n];
+
+                for (int j = 0; j < n; j++)
+                {
+                    Console.Write($"Enter grade {j + 1}: ");
+                    jagged[i][j] = Convert.ToInt32(Console.ReadLine());
+                }
+            }
+
+            Console.WriteLine("\nJagged Data:");
+            for (int i = 0; i < jagged.Length; i++)
+            {
+                Console.Write(students[i] + ": ");
+                for (int j = 0; j < jagged[i].Length; j++)
+                {
+                    Console.Write(jagged[i][j] + " ");
+                }
+                Console.WriteLine();
+            }
+
+            #endregion
+
         }
     }
 }
