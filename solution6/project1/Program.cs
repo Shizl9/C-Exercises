@@ -79,7 +79,24 @@
 
             #endregion
 
+            // Part 3: Display Grades
+            #region Display Grades
+            Console.WriteLine("\nStudent Grades:");
+            Console.WriteLine("Name\tMath\tScience\tEnglish");
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write(students[i] + "\t");
+                for (int j = 0; j < 3; j++)
+                {
+                    Console.Write(grades[i, j] + "\t");
+                }
+                Console.WriteLine();
+            }
+
+            #endregion
+
+
         }
-    }
     }
 }
