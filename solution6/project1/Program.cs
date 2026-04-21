@@ -96,6 +96,22 @@
 
             #endregion
 
+            // Part 4: Average
+            #region Average
+            Console.WriteLine("\nStudent Averages:");
+            for (int i = 0; i < 5; i++)
+            {
+                int sum = 0;
+                for (int j = 0; j < 3; j++)
+                {
+                    sum += grades[i, j];
+                }
+
+                double avg = (double)sum / 3;
+                Console.WriteLine($"{students[i]} Average = {avg}");
+            }
+
+            #endregion
 
         }
     }
